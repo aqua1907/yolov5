@@ -1,0 +1,10 @@
+train: yolov5_data/lp_recognition/train/images
+val: yolov5_data/lp_recognition/val/images
+
+# number of classes
+nc: 30
+
+# class names
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+        'A', 'B', 'C', 'D', 'E', 'G', 'H', 'I', 'K', 'M',
+        'O', 'P', 'T', 'X', 'Б', 'Г', 'Ч', 'Ф', 'Ю', 'Я']

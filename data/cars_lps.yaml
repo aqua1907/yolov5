@@ -1,0 +1,8 @@
+train: yolov5_data/cars_lps_detection/train/images
+val: yolov5_data/cars_lps_detection/val/images
+
+# number of classes
+nc: 2
+
+# class names
+names: ['car', 'license_plate']
